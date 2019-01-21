@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YourLogo Automation Test Login Page]">
+  <listeners>
+    <listener class-name="com.yourlogo.ExtendReoport.ExtendReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Your logo Login Page Testcases(failed)">
+    <classes>
+      <class name="com.yourlogo.testcases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifySearchBox"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yourlogo.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Your logo Login Page Testcases(failed) -->
+</suite> <!-- Failed suite [YourLogo Automation Test Login Page] -->

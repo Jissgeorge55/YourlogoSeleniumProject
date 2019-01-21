@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [YourLogo Automation Test MasterSuite]]">
+  <listeners>
+    <listener class-name="com.yourlogo.ExtendReoport.ExtendReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Your logo Testcases(failed)(failed)">
+    <classes>
+      <class name="com.yourlogo.testcases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifyLoginPagetitletest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yourlogo.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Your logo Testcases(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [YourLogo Automation Test MasterSuite]] -->

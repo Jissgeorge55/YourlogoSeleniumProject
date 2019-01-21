@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="YourLogo Automation Test MasterSuite" verbose="1" >
+
+<listeners>
+<listener class-name="com.yourlogo.ExtendReoport.ExtendReportNG"/>
+</listeners>
+
+  <test name="Your logo Testcases" >
+    <classes>
+       <class name="com.yourlogo.testcases.HomePageTest"></class>
+       <class name="com.yourlogo.testcases.LoginPageTest"></class>
+       <class name="com.yourlogo.testcases.QuickViewTest"></class>
+       <class name="com.yourlogo.testcases.CartPageTest"></class>
+       <class name="com.yourlogo.testcases.NewCustomerTest"></class>
+       
+    </classes>
+  </test>
+ 
+</suite>

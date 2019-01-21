@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100727" started-at="2019-01-20T19:20:19Z" finished-at="2019-01-20T19:22:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100727" started-at="2019-01-20T19:20:19Z" finished-at="2019-01-20T19:22:00Z">
+      <class name="com.yourlogo.testcases.RegestrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourlogo.testcases.RegestrationPageTest@ecd4b]" name="setup" is-config="true" duration-ms="44899" started-at="2019-01-20T19:20:21Z" finished-at="2019-01-20T19:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyReadDatafromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yourlogo.testcases.RegestrationPageTest@ecd4b]" name="verifyReadDatafromExcel" duration-ms="5775" started-at="2019-01-20T19:21:05Z" data-provider="getData" finished-at="2019-01-20T19:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jerry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testtom.jry@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jerry]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123 street, DVG]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sunrice]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8987765.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9.98776545E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReadDatafromExcel -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yourlogo.testcases.RegestrationPageTest@ecd4b]" name="setup" is-config="true" duration-ms="43186" started-at="2019-01-20T19:21:11Z" finished-at="2019-01-20T19:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyReadDatafromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yourlogo.testcases.RegestrationPageTest@ecd4b]" name="verifyReadDatafromExcel" duration-ms="5210" started-at="2019-01-20T19:21:54Z" data-provider="getData" finished-at="2019-01-20T19:22:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jiss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jiss.geo123@gmm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@1235]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jiss]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[124 street, DKL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sunrice]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8989665.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9.98776545E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReadDatafromExcel -->
+      </class> <!-- com.yourlogo.testcases.RegestrationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

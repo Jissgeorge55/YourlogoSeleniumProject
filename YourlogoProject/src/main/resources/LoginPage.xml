@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="YourLogo Automation Test Login Page" verbose="1" >
+
+<listeners>
+<listener class-name="com.yourlogo.ExtendReoport.ExtendReportNG"/>
+</listeners>
+
+  <test name="Your logo Login Page Testcases" >
+    <classes>
+ 
+       <class name="com.yourlogo.testcases.LoginPageTest"></class>
+     
+    </classes>
+  </test>
+ 
+</suite>
